@@ -3,7 +3,7 @@ import BackGround from "../Component/BackGround";
 function Home() {
     return (
         <main>
-            <BackGround className="items-center min-h-screen p-20">
+            <BackGround className="items-center min-h-screen p-28">
                 <div className="bg-white p-8 rounded shadow ">
                     <h2 className="text-2xl font-bold mb-4">Play As Guest</h2>
                     <input
