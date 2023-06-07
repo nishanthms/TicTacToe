@@ -1,6 +1,8 @@
+import BackGround from "./BackGround"
+
 function Header() {
     return (
-        <div className="flex flex-col bg-gray-700 p-8">
+        <BackGround>
             <nav className="flex items-center justify-between p-4 bg-gray-900 text-white rounded-lg shadow-lg">
                 <div className="flex items-center">
                     <img width="100" height="100" src="HeaderIcon.jpeg" alt="TIC TAC TOE" />
@@ -15,7 +17,7 @@ function Header() {
                     </button>
                 </div> */}
             </nav>
-        </div>
+        </BackGround>
     )
 }
 
