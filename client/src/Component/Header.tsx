@@ -1,7 +1,7 @@
 function Header() {
     return (
-        <>
-            <nav className="flex items-center justify-between p-4 bg-gray-800 text-white">
+        <div className="flex flex-col bg-gray-700 p-8">
+            <nav className="flex items-center justify-between p-4 bg-gray-900 text-white rounded-lg shadow-lg">
                 <div className="flex items-center">
                     <img width="100" height="100" src="HeaderIcon.jpeg" alt="TIC TAC TOE" />
                     <span className="text-lg font-bold  p-4">TIC TAC TOE</span>
@@ -15,7 +15,7 @@ function Header() {
                     </button>
                 </div> */}
             </nav>
-        </>
+        </div>
     )
 }
 
